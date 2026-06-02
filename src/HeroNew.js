@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, ChevronDown, Shield, Zap, Globe } from 'lucide-react';
 
@@ -53,26 +53,6 @@ export function KoruganLogo({ size = 120, animate = false }) {
 }
 
 // ── Animated counter ─────────────────────────────────────────────────
-function Counter({ to, suffix = '', prefix = '' }) {
-  const [val, setVal] = useState(0);
-  const ref = useRef(null);
-  useEffect(() => {
-    const obs = new IntersectionObserver(([e]) => {
-      if (e.isIntersecting) {
-        let start = 0;
-        const step = to / 50;
-        const t = setInterval(() => {
-          start += step;
-          if (start >= to) { setVal(to); clearInterval(t); }
-          else setVal(Math.floor(start));
-        }, 20);
-      }
-    }, { threshold: 0.5 });
-    if (ref.current) obs.observe(ref.current);
-    return () => obs.disconnect();
-  }, [to]);
-  return <span ref={ref}>{prefix}{val}{suffix}</span>;
-}
 
 // ── Glitch text ───────────────────────────────────────────────────────
 function GlitchText({ children, className }) {
