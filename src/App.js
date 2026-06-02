@@ -1,16 +1,12 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import { Shield, Zap, Globe, Microscope, ChevronDown, Menu, X, MapPin, ArrowRight, CheckCircle, XCircle } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { motion } from 'framer-motion';
+import { Shield, Zap, Globe, Microscope, Menu, X, MapPin, ArrowRight, CheckCircle, XCircle } from 'lucide-react';
 import logo from './logo.png';
 import akisSemasi from './akis-semasi.png';
 import kullanımAlanlari from './kullanim-alanlari.png';
 import HeroNew from './HeroNew';
 import './HeroNew.css';
 import './App.css';
-
-function ScanLines() {
-  return <div className="scanlines" aria-hidden />;
-}
 
 function Navbar() {
   const [open, setOpen] = useState(false);
