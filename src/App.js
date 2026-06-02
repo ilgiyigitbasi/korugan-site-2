@@ -76,7 +76,7 @@ function About() {
     <section id="hakkimizda" className="section about-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// HAKKIMIZDA</p>
+          <p className="section-label"> HAKKIMIZDA</p>
           <h2 className="section-title">Savunma Endüstrisi Kalitesinde<br /><span>Kompozit Malzeme</span></h2>
           <span className="gold-line" />
         </motion.div>
@@ -91,7 +91,7 @@ function About() {
           ))}
         </div>
         <motion.div className="values-block" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }}>
-          <p className="section-label">// DEĞERLERİMİZ</p>
+          <p className="section-label"> DEĞERLERİMİZ</p>
           <div className="values-grid">
             {values.map((v, i) => (
               <motion.div key={v} className="value-item" initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.05 * i }}>
@@ -141,7 +141,7 @@ function Services() {
     <section id="cozumler" className="section services-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// ÇÖZÜMLERİMİZ</p>
+          <p className="section-label">ÇÖZÜMLERİMİZ</p>
           <h2 className="section-title">Uygulama Alanı Odaklı<br /><span>Hizmetlerimiz</span></h2>
           <span className="gold-line" />
         </motion.div>
@@ -166,14 +166,14 @@ function Infographics() {
     <section className="section infographic-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// SÜREÇ & PAZAR</p>
+          <p className="section-label"> SÜREÇ & PAZAR</p>
           <h2 className="section-title">Atık Seramikten <span>İleri Teknoloji</span></h2>
           <span className="gold-line" />
         </motion.div>
         <div className="infographic-grid">
           <motion.div className="infographic-card" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
             <div className="infographic-label">
-              <span className="section-label" style={{marginBottom:0}}>// AKIŞ ŞEMASI</span>
+              <span className="section-label" style={{marginBottom:0}}> AKIŞ ŞEMASI</span>
               <p>Atık seramikten 3D filament üretim süreci, pazar avantajları ve rekabet konumu</p>
             </div>
             <div className="infographic-img-wrap">
@@ -183,7 +183,7 @@ function Infographics() {
           </motion.div>
           <motion.div className="infographic-card" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
             <div className="infographic-label">
-              <span className="section-label" style={{marginBottom:0}}>// HEDEF MÜŞTERİ</span>
+              <span className="section-label" style={{marginBottom:0}}>HEDEF MÜŞTERİ</span>
               <p>Dört ana müşteri segmenti: Medikal, Savunma, Nükleer Enerji ve Akademik Ar-Ge</p>
             </div>
             <div className="infographic-img-wrap">
@@ -203,7 +203,7 @@ function Technology() {
       <div className="tech-bg-lines" />
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// TEKNOLOJİMİZ</p>
+          <p className="section-label">TEKNOLOJİMİZ</p>
           <h2 className="section-title">Eklemeli İmalatta<br /><span>Fonksiyonel Malzemelerin Evrimi</span></h2>
           <span className="gold-line" />
         </motion.div>
@@ -247,7 +247,7 @@ function ComparisonTable() {
     <section className="section compare-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// KARŞILAŞTIRMA</p>
+          <p className="section-label">KARŞILAŞTIRMA</p>
           <h2 className="section-title">KCT vs <span>Geleneksel Malzemeler</span></h2>
           <span className="gold-line" />
         </motion.div>
@@ -284,7 +284,7 @@ function Markets() {
     <section id="pazarlar" className="section markets-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// UYGULAMA ALANLARI</p>
+          <p className="section-label">UYGULAMA ALANLARI</p>
           <h2 className="section-title">Hedef <span>Pazarlarımız</span></h2>
           <span className="gold-line" />
         </motion.div>
@@ -314,7 +314,7 @@ function Roadmap() {
     <section className="section roadmap-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// TİCARİLEŞME YOL HARİTASI</p>
+          <p className="section-label">TİCARİLEŞME YOL HARİTASI</p>
           <h2 className="section-title">Ar-Ge'den <span>Global Ölçeğe</span></h2>
           <span className="gold-line" />
         </motion.div>
@@ -340,7 +340,7 @@ function Contact() {
     <section id="iletisim" className="section contact-section">
       <div className="container">
         <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <p className="section-label">// İLETİŞİM</p>
+          <p className="section-label"> İLETİŞİM</p>
           <h2 className="section-title">Birlikte <span>Yerli Zırhı Üretelim</span></h2>
           <span className="gold-line" />
         </motion.div>
