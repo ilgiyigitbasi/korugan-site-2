@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Shield, Zap, Globe, Microscope, Menu, X, MapPin, ArrowRight, CheckCircle, XCircle } from 'lucide-react';
 import logo from './logo.png';
 import akisSemasi from './akis-semasi.png';
